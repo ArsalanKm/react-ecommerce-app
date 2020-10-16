@@ -6,7 +6,7 @@ const onToken=(token)=>{
 }
 const StripeCheckoutButton=({price})=>{
     const priceForStripe=price*1000
-    const publishableKey='1222'
+    // const publishableKey='1222'
     return <StripeCheckout
         label='payment'
         name='CRWN Clothing'
