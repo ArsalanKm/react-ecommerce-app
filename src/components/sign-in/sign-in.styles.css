@@ -10,5 +10,15 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 800px) {
+  .sign-in .buttons {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sign-in {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=sign-in.styles.css.map */

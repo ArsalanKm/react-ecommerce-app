@@ -12,12 +12,13 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
+  align-items: center;
 }
 .collection-item .custom-button {
   width: 80%;
   opacity: 0.7;
-  position: absolute;
-  top: 255px;
+  position: relative;
+  top: 50%;
   display: none;
 }
 .collection-item:hover .image {
@@ -40,6 +41,17 @@
 }
 .collection-item .collection-footer .price {
   width: 10%;
+}
+@media screen and (max-width: 800px) {
+  .collection-item {
+    width: 40vw;
+  }
+  .collection-item:hover .image {
+    opacity: unset;
+  }
+  .collection-item:hover button {
+    opacity: unset;
+  }
 }
 
 /*# sourceMappingURL=collection-item.styles.css.map */
