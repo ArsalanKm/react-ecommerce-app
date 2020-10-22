@@ -2,10 +2,12 @@
   "name": "react-ecommerce-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://127.0.0.1:8000",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
     "dev-tools": "^0.1.6",
     "firebase": "^7.22.1",
     "node-sass": "^4.14.1",
